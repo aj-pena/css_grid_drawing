@@ -20,7 +20,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(10px,10px)); /* 35 columns*/
     grid-template-rows: repeat(auto-fill, minmax(10px,10px)); /* 50 rows*/
-    min-height: 95vh;
+    min-height: 95vh !important;
     width: 350px;
     margin: 0 auto;
 }
