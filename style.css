@@ -21,9 +21,6 @@ body{
     display: grid;
     grid-template-columns: repeat(35, 10px); /* 35 columns*/
     grid-template-rows: repeat(50, 10px); /* 50 rows*/
-    /* width: 350px; */
-    /* margin: 0 auto; */
-    /* border: red solid; */
     position: absolute;
     bottom:0;
     left:-webkit-calc(100% - 350px);
