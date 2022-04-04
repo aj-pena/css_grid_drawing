@@ -13,7 +13,10 @@ body{
     background-image: url(./background.jpg);
     background-size: cover;
     background-position: bottom;
+    background-repeat: no-repeat;
     background-blend-mode:screen;
+    padding-top: 5vh;
+    /* box-sizing: border-box; */
 }
 
 .container{
@@ -21,7 +24,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(9px,9px)); /* 35 columns*/
     grid-template-rows: repeat(auto-fill, minmax(9px,9px)); /* 50 rows*/
-    height: 100vh;
+    height: 95vh;
     width: 350px;
     margin: 0 auto;
 }
