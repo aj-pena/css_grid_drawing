@@ -2,7 +2,7 @@ html,
 body{
     margin: 0;
     padding: 0;
-    max-height: 100vh;
+    /* max-height: 100vh; */
     /* border: magenta solid 3px; */
 }
 *{
@@ -22,8 +22,8 @@ body{
 .container{
     /* border: red solid 2px; */
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(9px,9px)); /* 35 columns*/
-    grid-template-rows: repeat(auto-fill, minmax(9px,9px)); /* 50 rows*/
+    grid-template-columns: repeat(auto-fill, minmax(10px,10px)); /* 35 columns*/
+    grid-template-rows: repeat(auto-fill, minmax(10px,10px)); /* 50 rows*/
     height: 95vh;
     width: 350px;
     margin: 0 auto;
